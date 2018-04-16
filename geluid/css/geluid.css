@@ -77,7 +77,8 @@ div#main-part {
 
 /* navigation */
 nav {
-  flex-basis: 140px;
+  -webkit-flex-basis: 140px;
+          flex-basis: 140px;
 }
 
 nav ul {
@@ -161,7 +162,8 @@ text-align: center;
 }
 
 .vertical-range-input {
-transform: rotate(90deg) translate(80px, 0);
+-webkit-transform: rotate(90deg) translate(80px, 0);
+        transform: rotate(90deg) translate(80px, 0);
 }
 
 label:not(.onoffswitch-label) {
