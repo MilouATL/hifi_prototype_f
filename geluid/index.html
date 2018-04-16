@@ -47,8 +47,7 @@
                     
                     <fieldset>
                         <label for="volume">volume</label>
-                        <input type="range" name="" id="volume">
-                        <input type="range" min="1" max="100" value="72" class="slider">
+                        <input id="range" type="range" min="1" max="100" value="72" class="slider">
                     </fieldset>
                     
                     <fieldset class="vertical-range-section">
@@ -56,17 +55,23 @@
                     
                         <div class="vertical-range-group">
                             <label for="bass">Bass</label>
-                            <input id="bass" class="vertical-range slider" type="range" min="1" max="100" value="72" orient="vertical">
+                            <div class="vertical-range-input">
+                                <input id="bass" class="vertical-range slider" type="range" min="1" max="100" value="72" orient="vertical">
+                            </div>
                         </div>
                         
                         <div class="vertical-range-group">
                             <label for="mid">Mid</label>
-                            <input id="mid" class="vertical-range slider" type="range" min="1" max="100" value="72" orient="vertical">
+                            <div class="vertical-range-input">
+                                <input id="mid" class="vertical-range slider" type="range" min="1" max="100" value="72" orient="vertical">
+                            </div>
                         </div>
                         
                         <div class="vertical-range-group">
                             <label for="treble">Treble</label>
-                            <input id="treble" class="vertical-range slider" type="range" min="1" max="100" value="72" orient="vertical">
+                            <div class="vertical-range-input">
+                                <input id="treble" class="vertical-range slider" type="range" min="1" max="100" value="72" orient="vertical">
+                            </div>
                         </div>
                     </fieldset>
                     
