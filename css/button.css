@@ -1,0 +1,41 @@
+.button-wrap {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-basis: 33.33%;
+            flex-basis: 33.33%;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-label {
+    -webkit-flex-basis: 100%;
+            flex-basis: 100%;
+    font-weight: normal;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+button { 
+    background-color: grey;
+    border-radius: 6px;
+    background-color: #9DA2A0;
+    background-size: 42%;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-flex-basis: 260px;
+            flex-basis: 260px; 
+    height: 170px;
+}
+
+button:active {
+    background-color: #3088BB;
+}
+
+.thumbs-up {
+    background-image: url("../assets/thumbs_up.png");
+}
+
+.thumbs-down {
+    background-image: url("../assets/thumbs_down.png");
+}
